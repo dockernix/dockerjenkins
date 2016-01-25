@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER Artem Kobrin "kobein.artem@gmail.com"
+MAINTAINER Artem Kobrin "kobrin.artem@gmail.com"
 
 RUN apt-get update -qq && apt-get install -qqy curl
 RUN curl https://get.docker.io/gpg | apt-key add -
